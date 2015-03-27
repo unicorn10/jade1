@@ -1,8 +1,8 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
   <block type="controls_repeat" id="1" inline="true" x="49" y="-13">
     <value name="TIMES">
-      <block type="math_number" id="2">
-        <field name="NUM">165000</field>
+      <block type="math_number" id="28">
+        <field name="NUM">2933326</field>
       </block>
     </value>
     <statement name="DO">
@@ -14,16 +14,16 @@
           <block type="controls_repeat" id="5" inline="true">
             <value name="TIMES">
               <block type="math_number" id="6">
-                <field name="NUM">120000</field>
+                <field name="NUM">2133328</field>
               </block>
             </value>
             <statement name="DO">
               <block type="movement_forward" id="7"></block>
             </statement>
             <next>
-              <block type="movement_leftmotor" id="72" inline="true">
+              <block type="movement_leftmotor" id="8" inline="true">
                 <value name="MOVLEFT">
-                  <block type="math_number" id="85">
+                  <block type="math_number" id="9">
                     <field name="NUM">8100</field>
                   </block>
                 </value>
@@ -38,7 +38,7 @@
                       <block type="movement_forward" id="12"></block>
                     </statement>
                     <next>
-                      <block type="movement_right" id="95">
+                      <block type="movement_right" id="13">
                         <next>
                           <block type="controls_repeat" id="14" inline="true">
                             <value name="TIMES">
@@ -62,7 +62,7 @@
                                       <block type="movement_forward" id="20"></block>
                                     </statement>
                                     <next>
-                                      <block type="multimedia_playwav" id="102">
+                                      <block type="multimedia_playwav" id="21">
                                         <field name="WAV">give me candy please</field>
                                       </block>
                                     </next>
