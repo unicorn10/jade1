@@ -61,11 +61,6 @@
                                     <statement name="DO">
                                       <block type="movement_forward" id="20"></block>
                                     </statement>
-                                    <next>
-                                      <block type="multimedia_playwav" id="21">
-                                        <field name="WAV">give me candy please</field>
-                                      </block>
-                                    </next>
                                   </block>
                                 </next>
                               </block>
