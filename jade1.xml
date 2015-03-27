@@ -2,65 +2,70 @@
   <block type="controls_repeat" id="1" inline="true" x="49" y="-13">
     <value name="TIMES">
       <block type="math_number" id="2">
-        <field name="NUM">200000000</field>
+        <field name="NUM">165000</field>
       </block>
     </value>
     <statement name="DO">
       <block type="movement_forward" id="3"></block>
     </statement>
     <next>
-      <block type="movement_right" id="14">
+      <block type="movement_right" id="4">
         <next>
-          <block type="controls_repeat" id="60" inline="true">
+          <block type="controls_repeat" id="5" inline="true">
             <value name="TIMES">
-              <block type="math_number" id="67">
-                <field name="NUM">200000000</field>
+              <block type="math_number" id="6">
+                <field name="NUM">120000</field>
               </block>
             </value>
             <statement name="DO">
-              <block type="movement_forward" id="24"></block>
+              <block type="movement_forward" id="7"></block>
             </statement>
             <next>
-              <block type="movement_rightmotor" id="77" inline="true">
-                <value name="MOVRIGHT">
-                  <block type="math_number" id="84">
-                    <field name="NUM">8</field>
+              <block type="movement_leftmotor" id="72" inline="true">
+                <value name="MOVLEFT">
+                  <block type="math_number" id="85">
+                    <field name="NUM">8100</field>
                   </block>
                 </value>
                 <next>
-                  <block type="controls_repeat" id="101" inline="true">
+                  <block type="controls_repeat" id="10" inline="true">
                     <value name="TIMES">
-                      <block type="math_number" id="108">
-                        <field name="NUM">2000000</field>
+                      <block type="math_number" id="11">
+                        <field name="NUM">1199997</field>
                       </block>
                     </value>
                     <statement name="DO">
-                      <block type="movement_forward" id="94"></block>
+                      <block type="movement_forward" id="12"></block>
                     </statement>
                     <next>
-                      <block type="movement_left" id="134">
+                      <block type="movement_right" id="95">
                         <next>
-                          <block type="controls_repeat" id="141" inline="true">
+                          <block type="controls_repeat" id="14" inline="true">
                             <value name="TIMES">
-                              <block type="math_number" id="158">
-                                <field name="NUM">60000</field>
+                              <block type="math_number" id="15">
+                                <field name="NUM">1199997</field>
                               </block>
                             </value>
                             <statement name="DO">
-                              <block type="movement_forward" id="151"></block>
+                              <block type="movement_forward" id="16"></block>
                             </statement>
                             <next>
-                              <block type="movement_right" id="168">
+                              <block type="movement_right" id="17">
                                 <next>
-                                  <block type="controls_repeat" id="175" inline="true">
+                                  <block type="controls_repeat" id="18" inline="true">
                                     <value name="TIMES">
-                                      <block type="math_number" id="182">
-                                        <field name="NUM">656545</field>
+                                      <block type="math_number" id="19">
+                                        <field name="NUM">133333</field>
                                       </block>
                                     </value>
                                     <statement name="DO">
-                                      <block type="movement_forward" id="192"></block>
+                                      <block type="movement_forward" id="20"></block>
                                     </statement>
+                                    <next>
+                                      <block type="multimedia_playwav" id="102">
+                                        <field name="WAV">give me candy please</field>
+                                      </block>
+                                    </next>
                                   </block>
                                 </next>
                               </block>
@@ -78,5 +83,4 @@
       </block>
     </next>
   </block>
-  <block type="movement_right" id="124" x="-198" y="49"></block>
 </xml>
