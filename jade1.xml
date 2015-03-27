@@ -2,7 +2,7 @@
   <block type="controls_repeat" id="1" inline="true" x="49" y="-13">
     <value name="TIMES">
       <block type="math_number" id="2">
-        <field name="NUM">2933326</field>
+        <field name="NUM">2933305</field>
       </block>
     </value>
     <statement name="DO">
@@ -14,15 +14,15 @@
           <block type="controls_repeat" id="5" inline="true">
             <value name="TIMES">
               <block type="math_number" id="6">
-                <field name="NUM">2133328</field>
+                <field name="NUM">2133308</field>
               </block>
             </value>
             <statement name="DO">
               <block type="movement_forward" id="7"></block>
             </statement>
             <next>
-              <block type="movement_leftmotor" id="8" inline="true">
-                <value name="MOVLEFT">
+              <block type="movement_rightmotor" id="8" inline="true">
+                <value name="MOVRIGHT">
                   <block type="math_number" id="9">
                     <field name="NUM">8100</field>
                   </block>
@@ -43,7 +43,7 @@
                           <block type="controls_repeat" id="14" inline="true">
                             <value name="TIMES">
                               <block type="math_number" id="15">
-                                <field name="NUM">1199997</field>
+                                <field name="NUM">1199987</field>
                               </block>
                             </value>
                             <statement name="DO">
