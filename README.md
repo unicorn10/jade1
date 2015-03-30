@@ -5,7 +5,7 @@ javeria to the office
 
 ### Project Information
 ```
-Type              : Scratch
+Type              : C
 Version           : 1.0.0
 Author            : unicorn10
 Firmware          : 42
